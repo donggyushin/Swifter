@@ -33,6 +33,7 @@ import AuthenticationServices
     import AppKit
 #endif
 
+@available(iOS 10.0, *)
 public extension Swifter {
     
     typealias TokenSuccessHandler = (Credential.OAuthAccessToken?, URLResponse) -> Void
